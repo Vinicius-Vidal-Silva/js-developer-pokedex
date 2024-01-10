@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #f6f8fc;
+}
+
+/*body.conteudo {
+    background-image: url('background_pokeball_sem_fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}*/
+
+.conteudo{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;  
+    background-color: #fff;
+    background-image: url('background_pokeball_sem_fundo.png');
+    background-size: auto;  
+    background-position: left;
+    background-repeat: repeat; 
+}
+
+@media screen and (min-width: 992px){
+    .conteudo{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
